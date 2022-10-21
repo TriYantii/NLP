@@ -1,0 +1,198 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses":[
+                "Hai! Kadekbot di sini. Mau tau informasi tentang apa nih?",
+                "Halo! Saya Kadekbot, salam kenal ya! Mau tau tentang kampus merdeka, kan?",
+                "Helo! Ini Kadekbot. Lagi kepo tentang kampus merdeka ya?"
+            ]
+        },
+        {
+            "tag": "trashbot",
+            "patterns": [
+                "Apa itu Trashbot?",
+                "Siapa Trashbot?"
+            ],
+            "responses": [
+                "Trashbot adalah aplikasi chatbot yang memuat berbagai informai terkait sampah lho. Disini kamu bisa tau terkait jenis-jenis sampah hingga pengolahannya",
+                "Trashbot itu adalah teman informasi yang akan mengedukasi kamu terkait sampah :)"
+            ]
+        },
+        {
+            "tag": "pencipta_trashbot",
+            "patterns": [
+                "Siapa pembuatmu?",
+                "Trashbot, yang buat kamu siapa sih?",
+                "Siapa penciptamu, Trashbot?"
+            ],
+            "responses": [
+                "Trashbot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+                "Pembuat Trashbot dari kalangan mahasiswa dan mahasiswi lho!",
+                "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati :)",
+                "Sama-sama yaa"
+            ]
+        },
+        {
+            "tag":"pengertian_sampah",
+            "patterns":[
+                "Apa itu sampah?",
+                "Sampah itu apa?"
+            ],
+            "responses":[
+                "Menurut Undang-undang Republik Indonesia Nomor 18 Tahun 2008 tentang Pengelolaan Sampah, yang dimaksud sampah adalah sisa kegiatan sehari-hari manusia dan/atau proses alam yang berbentuk padat. Penggolongan sampah dapat dibagi berdasarkan sumber, sifat, dan bentuknya"
+            ]
+        },
+        {
+            "tag": "jenis_sampah_berdasarkan_sifat",
+            "patterns": [
+                "Ada berapa jenis sampah berdasarkan sifatnya?"
+            ],
+            "responses": [
+                "Ada 3 jenis sampah berdasarkan sifatnya yakni sampah organik, sampah anorganik, dan sampah b3."
+            ]
+        },
+        {
+            "tag": "pengertian_sampah_organik",
+            "patterns": [
+                "Apa itu sampah organik?"
+            ],
+            "responses": [
+                "Sampah organik merupakan sampah yang bisa terurai atau diolah menjadi pupuk kompos. Contohnya seperti sisa makanan, daun kering, sayuran dan sebagainya."
+            ]
+        },
+        {
+            "tag": "pengertian_sampah_anongarnik",
+            "patterns": [
+                "Apa itu sampah anorganik?"
+            ],
+            "responses": [
+                "Sampah anorganik merupakan sampah yang sulit untuk membusuk dan tidak bisa terurai. Contohnya seperti plastik, karton, logam, dan sebagainya."
+            ]
+        },
+        {
+            "tag": "pengertian_sampah_b3",
+            "patterns": [
+                "Apa itu sampah b3?"
+            ],
+            "responses": [
+                "Sampah b3 atau singkatan dari Bahan Berbahaya Beracun merupakan sampah sisa dari pengolahan bahan kimia yang berbahaya. Contohnya seperti limbah, pelarutan kerak, produk kedaluwarsa, sisa kemasan, dan sebagainya."
+            ]
+        },
+        {
+            "tag":"jenis_sampah_berdasarkan_bentuk",
+            "patterns":[
+                "Ada berapa jenis sampah berdasarkan bentuknya?"
+            ],
+            "responses":[
+                "Jenis sampah berdasarkab bentuknya ada 2, yaitu: sampah padat dan sampah cair"
+            ]
+        },
+        {
+            "tag":"sampah_padat",
+            "patterns":[
+                "Apa yang dimaksud sampah padat?"
+            ],
+            "responses":[
+                "Sampah padat adalah sisa hasil kegiatan industri ataupun aktivitas domestik yang berbentuk padat. Contoh dari limbah padat diantaranya yaitu: kertas, plastik, serbuk besi, serbuk kayu, kain, dan lain lain."
+            ]
+        },
+        {
+            "tag":"sampah_cair",
+            "patterns":[
+                "Apa yang dimaksud sampah cair?"
+            ],
+            "responses":[
+                "Sampah cair adalah sisa hasil buangan proses produksi atau aktivitas domestik yang berupa cairan. Limbah cair dapat berupa air beserta bahan-bahan buangan lain yang tercampur maupun terlarut dalam air."
+            ]
+        },
+        {
+            "tag":"jenis_sampah_berdasarkan_sumbernya",
+            "patterns":[
+                "Ada berapa jenis sampah berdasarkan sumbernya?"
+            ],
+            "responses":[
+                "Jenis sampah berdasarkab bentuknya ada 6, yaitu: sampah alam, sampah manusia, sampah konsumsi, sampah nuklir, sampah industri, dan sampah pertambangan."
+            ]
+        },
+        {
+            "tag":"penguraian_sampah",
+            "patterns":[
+                "Apakah sampah dapat terurai?"
+            ],
+            "responses":[
+                "Alam semesta mempunyai kemampuan untuk mengurai sampah atau disebut biodegradability yang terbadi mendi 2 yaitu biodegradable dan non-biodegradable." 
+            ]
+        },
+        {
+            "tag":"penguraian_biodegradable",
+            "patterns":[
+                "Apa yang dimaksud biodegradable?"
+            ],
+            "responses":[
+                "Biodegradable yaitu sampah yang dapat diuraikan secara sempurna oleh proses biologi baik aerob atau anaerob. Seperti: sampah dapur, sisa-sisa hewan, sampah pertanian dan perkebunan."
+            ]
+        },
+        {
+            "tag":"penguraian_nonbiodegradable",
+            "patterns":[
+                "Apa yang dimaksud non biodegradable?"
+            ],
+            "responses":[
+                "Non Biodegradable yaitu yaitu sampah yang tidak bisa diuraikan oleh proses biologi. Dapat dibagi lagi menjadin recyclable atau sampah yang dapat diolah kembali seperti plastik, kertas, pakaian. Sedangkan non recyclable adalah sampah yang tidak dapat diolah kembali seperti tertra packs, dan carbon paper."
+            ]
+        }
+    ]
+}
